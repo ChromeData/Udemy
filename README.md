@@ -6,17 +6,13 @@
 
 ## Introduction
 
-In this project, I created a foundational environment in Microsoft Azure to explore and learn the core concepts of the AZ-900 certification. This setup includes key Azure services such as Virtual Machines, Resource Groups, Storage Accounts, and Network Security Groups. The goal is to understand how these components interact and to practice basic configuration and monitoring. 
-
-Metrics and insights from this setup include:
-- **Azure Resource Logs**: Tracking resource changes and access.
-- **Activity Logs**: Monitoring administrative activities.
-- **Network Watcher Metrics**: Visualizing inbound and outbound traffic flows.
-- **Cost Analysis**: Reviewing the cost breakdown of resources used.
+This Azure Fundamentals project creates and optimizes a cloud environment to explore core services, starting with an unsecured baseline. By applying configurations like Network Security Group rules, RBAC policies, and monitoring tools such as Azure Security Center, it demonstrates a significant reduction in unauthorized access and operational vulnerabilities.
 
 ---
 
 ## Architecture Before Optimization
+
+![Architecture Before Optimization](./images/architecture-before.png)
 
 ### Description of the Environment:
 
@@ -29,16 +25,19 @@ Metrics and insights from this setup include:
 - **Virtual Network**: Default configuration connecting resources.
 - **Azure Monitor**: Basic setup for tracking metrics and logs.
 
-### Key Observations:
+### Observations:
 - No cost optimization measures applied.
 - Security rules are lenient to enable broad accessibility.
 - No autoscaling or high availability configurations.
 
 ---
 
-## Architecture After Optimization / Security Enhancements
+## Architecture After Optimization
+
+![Architecture After Optimization](./images/architecture-after.png)
 
 ### Security Improvements:
+
 - **Resource Groups**: Reorganized to separate production and development resources.
 - **Virtual Machines (VMs)**:
   - Hardened configurations with restricted admin access via Azure Bastion.
@@ -48,17 +47,21 @@ Metrics and insights from this setup include:
 - **Azure Cost Management**: Enabled budgeting and alerting for cost control.
 - **Azure Monitor**: Enhanced monitoring with alerts for resource health and activity.
 
-These improvements significantly reduced the environment's vulnerability and ensured better cost management and performance monitoring.
-
 ---
 
 ## Hands-On Practice and Observations
 
 ### Before Optimization:
+
+![Before Optimization Logs](./images/logs-before.png)
+
 1. **Activity Logs**: Unfiltered logs capturing all admin actions.
 2. **Network Watcher Logs**: High levels of incoming unauthorized traffic.
 
 ### After Optimization:
+
+![After Optimization Logs](./images/logs-after.png)
+
 1. **Azure Security Center**: Reduced recommendations from critical to minor.
 2. **Cost Analysis**: Improved resource utilization and cost efficiency.
 3. **Network Watcher Logs**: Only permitted IPs access the environment.
