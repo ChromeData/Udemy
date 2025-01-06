@@ -6,7 +6,7 @@
 
 ## Introduction
 
-In this project, we create a foundational environment in Microsoft Azure to explore and learn the core concepts of the AZ-900 certification. This setup includes key Azure services such as Virtual Machines, Resource Groups, Storage Accounts, and Network Security Groups. The goal is to understand how these components interact and to practice basic configuration and monitoring. 
+In this project, I created a foundational environment in Microsoft Azure to explore and learn the core concepts of the AZ-900 certification. This setup includes key Azure services such as Virtual Machines, Resource Groups, Storage Accounts, and Network Security Groups. The goal is to understand how these components interact and to practice basic configuration and monitoring. 
 
 Metrics and insights from this setup include:
 - **Azure Resource Logs**: Tracking resource changes and access.
