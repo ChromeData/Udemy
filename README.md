@@ -12,7 +12,8 @@ This Azure Fundamentals project creates and optimizes a cloud environment to exp
 
 ## Architecture Before Optimization
 
-![Architecture Before Optimization](./images/architecture-before.png)
+![image](https://github.com/user-attachments/assets/6d90ffc9-9788-43f8-977d-af0d1df57f39)
+
 
 ### Description of the Environment:
 
