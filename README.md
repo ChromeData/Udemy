@@ -12,7 +12,8 @@ This Azure Fundamentals project creates and optimizes a cloud environment to exp
 
 ## Architecture Before Optimization
 
-![image](https://github.com/user-attachments/assets/6d90ffc9-9788-43f8-977d-af0d1df57f39)
+![image](https://github.com/user-attachments/assets/26844a48-9038-499e-ab18-475a0bdf51f0)
+
 
 
 ### Description of the Environment:
@@ -35,7 +36,8 @@ This Azure Fundamentals project creates and optimizes a cloud environment to exp
 
 ## Architecture After Optimization
 
-![Architecture After Optimization](./images/architecture-after.png)
+![image](https://github.com/user-attachments/assets/7ca11cfc-b79b-4681-884b-968c0f571105)
+
 
 ### Security Improvements:
 
@@ -54,14 +56,16 @@ This Azure Fundamentals project creates and optimizes a cloud environment to exp
 
 ### Before Optimization:
 
-![Before Optimization Logs](./images/logs-before.png)
+![image](https://github.com/user-attachments/assets/367894db-21fb-44ea-a1fd-4e664988a927)
+
 
 1. **Activity Logs**: Unfiltered logs capturing all admin actions.
 2. **Network Watcher Logs**: High levels of incoming unauthorized traffic.
 
 ### After Optimization:
 
-![After Optimization Logs](./images/logs-after.png)
+![image](https://github.com/user-attachments/assets/a9d66c67-83ae-4f12-95f0-2369467a3660)
+
 
 1. **Azure Security Center**: Reduced recommendations from critical to minor.
 2. **Cost Analysis**: Improved resource utilization and cost efficiency.
